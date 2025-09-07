@@ -16,7 +16,7 @@ public class Quadrilateral implements Polygon {
 	// we define other types of quadrilaterals that will be required, so no need to
 	// address logic to general quadrilateral area formula
 	public double area() {
-		return 0;
+		throw new UnsupportedOperationException("Area formula must be for a specific type of quadrilateral.");
 	}
 
 	@Override
